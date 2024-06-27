@@ -1,3 +1,3 @@
  #!/usr/bin/env bash
- gcc -o chess -lncurses ./main.c 
+ gcc -o chess main.c board.c move.c -lncurses 
  ./chess
